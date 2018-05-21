@@ -8,3 +8,4 @@ This folder is built for learning python.
 20180520  learning the high order function in function-program part, especially the map and reduce.
           Q: (1)not familiar with the effectiveness of sentences in py files;
              (2)unknown about the definition of func in another func.
+20180521  finishing the map & reduce function in function-program part
