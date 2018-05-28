@@ -9,3 +9,5 @@ This folder is built for learning python.
           Q: (1)not familiar with the effectiveness of sentences in py files;
              (2)unknown about the definition of func in another func.
 20180521  finishing the map & reduce function in function-program part
+20180528  learning the filter & sorted function in high order function in function-program.
+          finishing the high order function part.
