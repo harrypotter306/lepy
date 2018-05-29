@@ -12,3 +12,4 @@ This folder is built for learning python.
 20180528  learning the filter & sorted function in high order function in function-program.
           finishing the high order function part.
           learning using functions in return sentences
+20180529  learning the anonymous function in function program.
