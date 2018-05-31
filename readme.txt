@@ -15,3 +15,6 @@ This folder is built for learning python.
 20180529  learning the anonymous function in function program.
 20180530  learning the decorator in function program.
           Q: the @functools.wrap(func) sentence hasn't been solved.
+20180531  learning the partial function in function-program part.
+          Q: not fully understand
+          finishing the function-program part.
