@@ -18,3 +18,5 @@ This folder is built for learning python.
 20180531  learning the partial function in function-program part.
           Q: not fully understand
           finishing the function-program part.
+20180602  learning the module part.
+          finishing the module part.
