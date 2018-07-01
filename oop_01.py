@@ -1,6 +1,7 @@
 #first oop program
 class Student(object):
-    def __init__(self,name,score):
+    na='Student'                         #类属性
+    def __init__(self,name,score):       #实例属性
         self.name=name
         self.__score=score
     

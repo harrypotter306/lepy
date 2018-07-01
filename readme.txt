@@ -21,3 +21,5 @@ This folder is built for learning python.
 20180602  learning the module part.
           finishing the module part.
 20180629  learning the basic concept of OOP, class & instance, pirate variable in oop part.
+20180701  learning how to get the info of object, the property of class and instance.
+          finishing the basic of oop part.
