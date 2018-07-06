@@ -24,3 +24,4 @@ This folder is built for learning python.
 20180701  learning how to get the info of object, the property of class and instance.
           finishing the basic of oop part.
 20180705  learning the __slots__ method in advance oop programming part.
+20180706  learning the @property in advance oop programming part, but the principle is unclear.
