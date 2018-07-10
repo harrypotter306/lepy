@@ -10,8 +10,9 @@ class Mammal(Animal):
 
 class Bird(Animal):
     pass
+#以上为单一继承的主线
 
-#定义多重继承的类Runnable和Flyable
+#定义多重继承的类Runnable和Flyable，可以同时继承，获得更多的方法
 class Runnable(object):
     def run(self):
         print('I can run')
