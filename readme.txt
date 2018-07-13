@@ -27,3 +27,4 @@ This folder is built for learning python.
 20180706  learning the @property in advance oop programming part, but the principle is unclear.
 20180710  learning the multi inherit in advance oop programming part.
 20180712  learning specific-design class and enumeration class part in advance oop programming part.
+20180713  finishing the advance oop programming part.
