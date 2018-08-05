@@ -46,4 +46,4 @@ class screen(object):
     
     @property                 #这里很不明白，只用@property不用@.setter，返回值的表达式中的变量不能是新的？
     def resolution(self):     #reply：也可以是新的，但逻辑上就有问题了，原因很简单，一个属性要先设置才有值可以返回
-        return self._width*self._height  #如果直接设置成新的变量，没有设置值，如何返回？
+        return self._width*self._height  #如果直接设置成新的变量，没有设置值，那就无法返回
