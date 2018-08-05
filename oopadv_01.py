@@ -2,6 +2,8 @@
 #part1 __slots__
 class Student(object):
     __slots__=('name','age')
+    def set_age(self,age):       #set_age是类的方法，__slots__并不限制
+        self.age=age
 
 class Undergraduate(Student):
     __slots__=('score','set_gender')
@@ -10,3 +12,4 @@ class Undergraduate(Student):
 
 class Master(Student):
     pass
+    #Master类没有__slots__, 所以父类的__slots__对其也没有作用
