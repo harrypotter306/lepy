@@ -1,4 +1,5 @@
-#本文件是class中一些特别的定制方法，如slots类型的
+#本文件是python的class中一些特别的定制方法，如__slots__, __len__等
+#(1)__str__和__repr__
 class Student(object):
     def __init__(self,name):
         self.name=name
@@ -8,6 +9,7 @@ class Student(object):
         return 'Student object(for builder)'
     #通常简化写法：__repr__=__str__(二者内容一样)
 
+#(2)__iter__和__next__
 class Fib(object):
     def __init__(self):
         self.a,self.b=0,1
@@ -19,14 +21,15 @@ class Fib(object):
             raise StopIteration()
         return self.a
 
+#(3)__getitem__
 class Fib2(object):
-    def __getitem__(self,n):
+    def __getitem__(self,n):  #要传入参数n
         if isinstance(n,int):#传入的参数是int
             a,b=0,1
             for x in range(n):
                 a,b=b,a+b
             return a
-        if isinstance(n,slice):#传入的参数是切片
+        if isinstance(n,slice):#传入的参数是切片，得到的结果是一个list
             start=n.start
             stop=n.stop
             if start is None:
@@ -39,15 +42,17 @@ class Fib2(object):
                 a,b=b,a+b
             return L
 
+#(4)__getattr__
 class Student2(object):
     def __init__(self):
         self.name='Abc'
-    def __getattr__(self,ater):#若实例的属性为score，可以赋值为99
+    def __getattr__(self,ater):  #若实例的属性为score，可以赋值为99
         if ater=='score':
             return 99
         else:
-            raise AttributeError('Error')
+            raise AttributeError('Student2\'s property has no %s' % ater)
 
+#(5)__call__
 class Student3(object):
     def __init__(self,name):
         self.name=name
