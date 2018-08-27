@@ -15,4 +15,18 @@ finally:
     print('finally')
 print('End')
 
-#part 2
+#part 2 (self definition error)
+class Fooerror(ValueError):
+    pass
+
+def foo(s):
+    n=int(s)
+    if n==0:
+        raise Fooerror('invalid value %s' % s)
+    else:
+        a=10/n
+        print(a)
+        return a
+
+a=int(input())
+foo(a)

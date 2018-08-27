@@ -28,3 +28,4 @@ This folder is built for learning python.
 20180710  learning the multi inherit in advance oop programming part.
 20180712  learning specific-design class and enumeration class part in advance oop programming part.
 20180713  finishing the advance oop programming part.
+20180828  learning the handling of error(capture and raise)
