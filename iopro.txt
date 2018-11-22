@@ -1,0 +1,6 @@
+Hello, world!
+Start:
+(1) read:
+(2) write:
+	with open('E:\\lepy\\iopro.txt','a') as f:
+		f.write('Hello, world')
